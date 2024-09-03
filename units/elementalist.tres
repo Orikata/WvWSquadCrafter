@@ -1,0 +1,9 @@
+[gd_resource type="Resource" script_class="Unit" load_steps=3 format=3 uid="uid://d0nr6w0shqgfx"]
+
+[ext_resource type="Script" path="res://scripts/unit.gd" id="1_n348r"]
+[ext_resource type="Texture2D" uid="uid://dcjur0bkop8r5" path="res://assets/ele.png" id="2_eoyon"]
+
+[resource]
+script = ExtResource("1_n348r")
+name = "elementalist"
+texture = ExtResource("2_eoyon")

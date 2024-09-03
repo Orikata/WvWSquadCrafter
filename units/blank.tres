@@ -1,0 +1,9 @@
+[gd_resource type="Resource" script_class="Unit" load_steps=3 format=3 uid="uid://dubspcw2kedjh"]
+
+[ext_resource type="Script" path="res://scripts/unit.gd" id="1_8m1qq"]
+[ext_resource type="Texture2D" uid="uid://d14kyu7kxpwed" path="res://assets/blank.png" id="2_6mhkd"]
+
+[resource]
+script = ExtResource("1_8m1qq")
+name = "blank"
+texture = ExtResource("2_6mhkd")

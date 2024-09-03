@@ -1,0 +1,9 @@
+[gd_resource type="Resource" script_class="Unit" load_steps=3 format=3 uid="uid://cgmvc41pftwni"]
+
+[ext_resource type="Script" path="res://scripts/unit.gd" id="1_h5oil"]
+[ext_resource type="Texture2D" uid="uid://bqbt2yauwvon7" path="res://assets/engie.png" id="2_b6wuh"]
+
+[resource]
+script = ExtResource("1_h5oil")
+name = "engineer"
+texture = ExtResource("2_b6wuh")

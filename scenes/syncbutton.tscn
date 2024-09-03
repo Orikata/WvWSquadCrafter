@@ -1,0 +1,11 @@
+[gd_scene load_steps=3 format=3 uid="uid://bg707hp3xs8uw"]
+
+[ext_resource type="FontFile" uid="uid://c43hoyloe2qrv" path="res://misc/GWTwoFont.ttf" id="1_hajwg"]
+[ext_resource type="Script" path="res://scenes/syncbutton.gd" id="2_s8d35"]
+
+[node name="Button" type="Button"]
+custom_minimum_size = Vector2(150, 15)
+theme_override_fonts/font = ExtResource("1_hajwg")
+theme_override_font_sizes/font_size = 45
+text = "sync"
+script = ExtResource("2_s8d35")

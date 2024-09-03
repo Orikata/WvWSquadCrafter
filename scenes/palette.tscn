@@ -1,0 +1,141 @@
+[gd_scene load_steps=3 format=3 uid="uid://dqsb7x30xqsoh"]
+
+[ext_resource type="Script" path="res://scenes/palette_gui.gd" id="1_qsj6f"]
+[ext_resource type="PackedScene" uid="uid://b6ji8k33y3ruk" path="res://scenes/palettebutton.tscn" id="2_5nmep"]
+
+[node name="palette" type="GridContainer"]
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -315.0
+offset_top = -795.0
+offset_right = 315.0
+offset_bottom = 795.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_constants/h_separation = 10
+theme_override_constants/v_separation = 10
+columns = 4
+script = ExtResource("1_qsj6f")
+
+[node name="Button" parent="." instance=ExtResource("2_5nmep")]
+layout_mode = 2
+
+[node name="Button2" parent="." instance=ExtResource("2_5nmep")]
+layout_mode = 2
+
+[node name="Button3" parent="." instance=ExtResource("2_5nmep")]
+layout_mode = 2
+
+[node name="Button4" parent="." instance=ExtResource("2_5nmep")]
+layout_mode = 2
+
+[node name="Button5" parent="." instance=ExtResource("2_5nmep")]
+layout_mode = 2
+
+[node name="Button6" parent="." instance=ExtResource("2_5nmep")]
+layout_mode = 2
+
+[node name="Button7" parent="." instance=ExtResource("2_5nmep")]
+layout_mode = 2
+
+[node name="Button8" parent="." instance=ExtResource("2_5nmep")]
+layout_mode = 2
+
+[node name="Button9" parent="." instance=ExtResource("2_5nmep")]
+layout_mode = 2
+
+[node name="Button10" parent="." instance=ExtResource("2_5nmep")]
+layout_mode = 2
+
+[node name="Button11" parent="." instance=ExtResource("2_5nmep")]
+layout_mode = 2
+
+[node name="Button12" parent="." instance=ExtResource("2_5nmep")]
+layout_mode = 2
+
+[node name="Button13" parent="." instance=ExtResource("2_5nmep")]
+layout_mode = 2
+
+[node name="Button14" parent="." instance=ExtResource("2_5nmep")]
+layout_mode = 2
+
+[node name="Button15" parent="." instance=ExtResource("2_5nmep")]
+layout_mode = 2
+
+[node name="Button16" parent="." instance=ExtResource("2_5nmep")]
+layout_mode = 2
+
+[node name="Button17" parent="." instance=ExtResource("2_5nmep")]
+layout_mode = 2
+
+[node name="Button18" parent="." instance=ExtResource("2_5nmep")]
+layout_mode = 2
+
+[node name="Button19" parent="." instance=ExtResource("2_5nmep")]
+layout_mode = 2
+
+[node name="Button20" parent="." instance=ExtResource("2_5nmep")]
+layout_mode = 2
+
+[node name="Button21" parent="." instance=ExtResource("2_5nmep")]
+layout_mode = 2
+
+[node name="Button22" parent="." instance=ExtResource("2_5nmep")]
+layout_mode = 2
+
+[node name="Button23" parent="." instance=ExtResource("2_5nmep")]
+layout_mode = 2
+
+[node name="Button24" parent="." instance=ExtResource("2_5nmep")]
+layout_mode = 2
+
+[node name="Button25" parent="." instance=ExtResource("2_5nmep")]
+layout_mode = 2
+
+[node name="Button26" parent="." instance=ExtResource("2_5nmep")]
+layout_mode = 2
+
+[node name="Button27" parent="." instance=ExtResource("2_5nmep")]
+layout_mode = 2
+
+[node name="Button28" parent="." instance=ExtResource("2_5nmep")]
+layout_mode = 2
+
+[node name="Button29" parent="." instance=ExtResource("2_5nmep")]
+layout_mode = 2
+
+[node name="Button30" parent="." instance=ExtResource("2_5nmep")]
+layout_mode = 2
+
+[node name="Button31" parent="." instance=ExtResource("2_5nmep")]
+layout_mode = 2
+
+[node name="Button32" parent="." instance=ExtResource("2_5nmep")]
+layout_mode = 2
+
+[node name="Button33" parent="." instance=ExtResource("2_5nmep")]
+layout_mode = 2
+
+[node name="Button34" parent="." instance=ExtResource("2_5nmep")]
+layout_mode = 2
+
+[node name="Button35" parent="." instance=ExtResource("2_5nmep")]
+layout_mode = 2
+
+[node name="Button36" parent="." instance=ExtResource("2_5nmep")]
+layout_mode = 2
+
+[node name="Button37" parent="." instance=ExtResource("2_5nmep")]
+layout_mode = 2
+
+[node name="Button38" parent="." instance=ExtResource("2_5nmep")]
+layout_mode = 2
+
+[node name="Button39" parent="." instance=ExtResource("2_5nmep")]
+layout_mode = 2
+
+[node name="Button40" parent="." instance=ExtResource("2_5nmep")]
+layout_mode = 2

@@ -1,0 +1,9 @@
+[gd_resource type="Resource" script_class="Unit" load_steps=3 format=3 uid="uid://c06txvegbnt8k"]
+
+[ext_resource type="Script" path="res://scripts/unit.gd" id="1_otpjm"]
+[ext_resource type="Texture2D" uid="uid://b140lili32fw1" path="res://assets/thief2.png" id="2_ecs83"]
+
+[resource]
+script = ExtResource("1_otpjm")
+name = "daredevil"
+texture = ExtResource("2_ecs83")

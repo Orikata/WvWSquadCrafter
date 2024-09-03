@@ -1,0 +1,11 @@
+[gd_scene load_steps=2 format=3 uid="uid://bqoncbevsffv0"]
+
+[ext_resource type="Script" path="res://scenes/palettestackgui.gd" id="1_kstp0"]
+
+[node name="Panel" type="Panel"]
+script = ExtResource("1_kstp0")
+
+[node name="icon" type="Sprite2D" parent="."]
+position = Vector2(-75, -75)
+scale = Vector2(0.833333, 0.833333)
+centered = false

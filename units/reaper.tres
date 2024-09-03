@@ -1,0 +1,9 @@
+[gd_resource type="Resource" script_class="Unit" load_steps=3 format=3 uid="uid://2r8p716rb6dh"]
+
+[ext_resource type="Script" path="res://scripts/unit.gd" id="1_lf3te"]
+[ext_resource type="Texture2D" uid="uid://cxkfbdd6pxkr2" path="res://assets/necro2.png" id="2_np887"]
+
+[resource]
+script = ExtResource("1_lf3te")
+name = "reaper"
+texture = ExtResource("2_np887")

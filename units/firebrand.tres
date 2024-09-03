@@ -1,0 +1,9 @@
+[gd_resource type="Resource" script_class="Unit" load_steps=3 format=3 uid="uid://dwq1yjeyi254d"]
+
+[ext_resource type="Script" path="res://scripts/unit.gd" id="1_8wd34"]
+[ext_resource type="Texture2D" uid="uid://mmrrp1dxgbys" path="res://assets/guard3.png" id="2_0orni"]
+
+[resource]
+script = ExtResource("1_8wd34")
+name = "firebrand"
+texture = ExtResource("2_0orni")

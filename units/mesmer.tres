@@ -1,0 +1,9 @@
+[gd_resource type="Resource" script_class="Unit" load_steps=3 format=3 uid="uid://bg7aqup4dysco"]
+
+[ext_resource type="Script" path="res://scripts/unit.gd" id="1_r8k22"]
+[ext_resource type="Texture2D" uid="uid://4y05fanejg1j" path="res://assets/mes.png" id="2_03rar"]
+
+[resource]
+script = ExtResource("1_r8k22")
+name = "mesmer"
+texture = ExtResource("2_03rar")

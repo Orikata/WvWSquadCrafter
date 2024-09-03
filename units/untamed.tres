@@ -1,0 +1,9 @@
+[gd_resource type="Resource" script_class="Unit" load_steps=3 format=3 uid="uid://q43ja1y3fpb5"]
+
+[ext_resource type="Script" path="res://scripts/unit.gd" id="1_urf5t"]
+[ext_resource type="Texture2D" uid="uid://d2bg4fy5ed5jy" path="res://assets/ranger.png" id="2_oc016"]
+
+[resource]
+script = ExtResource("1_urf5t")
+name = "untamed"
+texture = ExtResource("2_oc016")

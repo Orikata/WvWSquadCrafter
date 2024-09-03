@@ -1,0 +1,9 @@
+[gd_resource type="Resource" script_class="Unit" load_steps=3 format=3 uid="uid://bqe0ujtsyt6dh"]
+
+[ext_resource type="Script" path="res://scripts/unit.gd" id="1_y0int"]
+[ext_resource type="Texture2D" uid="uid://k0etatr815sy" path="res://assets/ranger2.png" id="2_shxdi"]
+
+[resource]
+script = ExtResource("1_y0int")
+name = "druid"
+texture = ExtResource("2_shxdi")

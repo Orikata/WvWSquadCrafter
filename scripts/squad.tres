@@ -1,0 +1,7 @@
+[gd_resource type="Resource" script_class="Squad" load_steps=2 format=3 uid="uid://302n0q46xfqt"]
+
+[ext_resource type="Script" path="res://scripts/squad.gd" id="1_1lswy"]
+
+[resource]
+script = ExtResource("1_1lswy")
+units = Array[Resource("res://scripts/unit.gd")]([null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null])

@@ -1,0 +1,9 @@
+[gd_resource type="Resource" script_class="Unit" load_steps=3 format=3 uid="uid://drmep5ijbvs8c"]
+
+[ext_resource type="Script" path="res://scripts/unit.gd" id="1_ftgd8"]
+[ext_resource type="Texture2D" uid="uid://cit46xl6tdikw" path="res://assets/thief3.png" id="2_m534y"]
+
+[resource]
+script = ExtResource("1_ftgd8")
+name = "deadeye"
+texture = ExtResource("2_m534y")

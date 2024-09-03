@@ -1,0 +1,9 @@
+[gd_resource type="Resource" script_class="Unit" load_steps=3 format=3 uid="uid://vguoxb44pugy"]
+
+[ext_resource type="Script" path="res://scripts/unit.gd" id="1_a8yx3"]
+[ext_resource type="Texture2D" uid="uid://cbabmsu0c6yay" path="res://assets/a_flexhealer.png" id="2_2u1k4"]
+
+[resource]
+script = ExtResource("1_a8yx3")
+name = "flexhealer"
+texture = ExtResource("2_2u1k4")

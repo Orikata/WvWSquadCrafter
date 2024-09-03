@@ -1,0 +1,9 @@
+[gd_resource type="Resource" script_class="Unit" load_steps=3 format=3 uid="uid://b87lepw8b032o"]
+
+[ext_resource type="Script" path="res://scripts/unit.gd" id="1_3grfl"]
+[ext_resource type="Texture2D" uid="uid://4y05fanejg1j" path="res://assets/mes.png" id="2_y1ymq"]
+
+[resource]
+script = ExtResource("1_3grfl")
+name = "virtuoso"
+texture = ExtResource("2_y1ymq")

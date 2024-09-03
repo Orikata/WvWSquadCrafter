@@ -1,0 +1,9 @@
+[gd_resource type="Resource" script_class="Unit" load_steps=3 format=3 uid="uid://cgtmfxhelx3rj"]
+
+[ext_resource type="Script" path="res://scripts/unit.gd" id="1_raoog"]
+[ext_resource type="Texture2D" uid="uid://cxef6slck28lk" path="res://assets/warrior3.png" id="2_ay0tp"]
+
+[resource]
+script = ExtResource("1_raoog")
+name = "spellbreaker"
+texture = ExtResource("2_ay0tp")

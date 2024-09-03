@@ -1,0 +1,123 @@
+[gd_scene load_steps=9 format=3 uid="uid://bt15y2baarj81"]
+
+[ext_resource type="PackedScene" uid="uid://dqsb7x30xqsoh" path="res://scenes/palette.tscn" id="1_2r76m"]
+[ext_resource type="PackedScene" uid="uid://bn4xai6lpce82" path="res://scenes/squad.tscn" id="1_pxj0b"]
+[ext_resource type="Script" path="res://scenes/main.gd" id="1_vrdrw"]
+[ext_resource type="PackedScene" uid="uid://bg707hp3xs8uw" path="res://scenes/syncbutton.tscn" id="4_xmsss"]
+
+[sub_resource type="Gradient" id="Gradient_3b1ix"]
+offsets = PackedFloat32Array(1)
+colors = PackedColorArray(0.176471, 0.176471, 0.176471, 1)
+
+[sub_resource type="GradientTexture1D" id="GradientTexture1D_4mt3s"]
+gradient = SubResource("Gradient_3b1ix")
+
+[sub_resource type="Gradient" id="Gradient_kw1c6"]
+offsets = PackedFloat32Array(1)
+colors = PackedColorArray(0.258824, 0.270588, 0.286275, 1)
+
+[sub_resource type="GradientTexture1D" id="GradientTexture1D_kyoex"]
+gradient = SubResource("Gradient_kw1c6")
+
+[node name="mainNode" type="Node2D"]
+script = ExtResource("1_vrdrw")
+
+[node name="CanvasLayer" type="CanvasLayer" parent="."]
+
+[node name="background" type="TextureRect" parent="CanvasLayer"]
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -2759.0
+offset_top = -1842.0
+offset_right = 5112.0
+offset_bottom = 3282.0
+grow_horizontal = 2
+grow_vertical = 2
+texture = SubResource("GradientTexture1D_4mt3s")
+metadata/_edit_lock_ = true
+
+[node name="Control" type="Control" parent="CanvasLayer"]
+custom_minimum_size = Vector2(960, 540)
+layout_mode = 3
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -800.0
+offset_top = -450.0
+offset_right = 2418.0
+offset_bottom = 1518.0
+grow_horizontal = 2
+grow_vertical = 2
+scale = Vector2(0.5, 0.5)
+
+[node name="NinePatchRect" type="NinePatchRect" parent="CanvasLayer/Control"]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -1609.0
+offset_top = -985.0
+offset_right = 1587.0
+offset_bottom = 814.0
+grow_horizontal = 2
+grow_vertical = 2
+texture = SubResource("GradientTexture1D_kyoex")
+patch_margin_left = 5
+patch_margin_top = 5
+patch_margin_right = 5
+patch_margin_bottom = 5
+
+[node name="palette" parent="CanvasLayer/Control/NinePatchRect" instance=ExtResource("1_2r76m")]
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 0.134
+anchor_right = 0.134
+offset_left = -306.568
+offset_top = -691.0
+offset_right = 305.432
+offset_bottom = 691.0
+
+[node name="squadgui" parent="CanvasLayer/Control/NinePatchRect" instance=ExtResource("1_pxj0b")]
+layout_mode = 1
+offset_left = -395.0
+offset_top = -401.0
+offset_right = 407.0
+offset_bottom = 409.0
+
+[node name="rowsync" type="GridContainer" parent="CanvasLayer/Control/NinePatchRect"]
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 0.499
+anchor_top = 0.234
+anchor_right = 0.499
+anchor_bottom = 0.234
+offset_left = -391.782
+offset_top = -4.98001
+offset_right = 414.218
+offset_bottom = 71.02
+grow_horizontal = 2
+theme_override_constants/h_separation = 15
+theme_override_constants/v_separation = 15
+columns = 5
+
+[node name="Button" parent="CanvasLayer/Control/NinePatchRect/rowsync" instance=ExtResource("4_xmsss")]
+layout_mode = 2
+
+[node name="Button2" parent="CanvasLayer/Control/NinePatchRect/rowsync" instance=ExtResource("4_xmsss")]
+layout_mode = 2
+
+[node name="Button3" parent="CanvasLayer/Control/NinePatchRect/rowsync" instance=ExtResource("4_xmsss")]
+layout_mode = 2
+
+[node name="Button4" parent="CanvasLayer/Control/NinePatchRect/rowsync" instance=ExtResource("4_xmsss")]
+layout_mode = 2
+
+[node name="Button5" parent="CanvasLayer/Control/NinePatchRect/rowsync" instance=ExtResource("4_xmsss")]
+layout_mode = 2
