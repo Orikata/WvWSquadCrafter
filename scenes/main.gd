@@ -125,7 +125,7 @@ func updateUnitInHand():
 	if !unitInHand: return
 	unitInHand.global_position = get_global_mouse_position()
 
-func _input(event):
+func _input(_event):
 	if unitInHand && Input.is_action_just_pressed("rightClick"):
 		removeFromHand()
 	

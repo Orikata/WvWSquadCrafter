@@ -98,10 +98,10 @@ anchor_left = 0.499
 anchor_top = 0.234
 anchor_right = 0.499
 anchor_bottom = 0.234
-offset_left = -391.782
-offset_top = -4.98001
-offset_right = 414.218
-offset_bottom = 71.02
+offset_left = -394.804
+offset_top = 1116.03
+offset_right = 415.196
+offset_bottom = 1192.03
 grow_horizontal = 2
 theme_override_constants/h_separation = 15
 theme_override_constants/v_separation = 15
@@ -121,3 +121,44 @@ layout_mode = 2
 
 [node name="Button5" parent="CanvasLayer/Control/NinePatchRect/rowsync" instance=ExtResource("4_xmsss")]
 layout_mode = 2
+
+[node name="labelcontainer" type="GridContainer" parent="CanvasLayer/Control"]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -409.0
+offset_top = -616.0
+offset_right = 399.0
+offset_bottom = -553.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_constants/h_separation = 79
+columns = 5
+
+[node name="Label" type="Label" parent="CanvasLayer/Control/labelcontainer"]
+layout_mode = 2
+theme_override_font_sizes/font_size = 45
+text = "Stab"
+
+[node name="Label2" type="Label" parent="CanvasLayer/Control/labelcontainer"]
+layout_mode = 2
+theme_override_font_sizes/font_size = 45
+text = "Heal"
+
+[node name="Label3" type="Label" parent="CanvasLayer/Control/labelcontainer"]
+layout_mode = 2
+theme_override_font_sizes/font_size = 45
+text = "Util"
+
+[node name="Label4" type="Label" parent="CanvasLayer/Control/labelcontainer"]
+layout_mode = 2
+theme_override_font_sizes/font_size = 45
+text = "DPS"
+
+[node name="Label5" type="Label" parent="CanvasLayer/Control/labelcontainer"]
+layout_mode = 2
+theme_override_font_sizes/font_size = 45
+text = "DPS"
