@@ -22,6 +22,7 @@ func _ready():
 	update()
 
 func update():
+	
 	for i in range(min(palette.units.size(), palette_slots.size())):
 		#squad_slots[i].update(squad.units[i])
 		var paletteSlot:Unit = palette.units[i]
@@ -30,6 +31,7 @@ func update():
 		if !palettestackgui:
 			palettestackgui = PaletteStackGuiClass.instantiate()
 			palette_slots[i].insert(palettestackgui)
+		#update palette stack with current palette
 		palettestackgui.unit = palette.units[i]
 		palettestackgui.update()
 	

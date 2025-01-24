@@ -1,9 +1,10 @@
-[gd_scene load_steps=9 format=3 uid="uid://bt15y2baarj81"]
+[gd_scene load_steps=10 format=3 uid="uid://bt15y2baarj81"]
 
 [ext_resource type="PackedScene" uid="uid://dqsb7x30xqsoh" path="res://scenes/palette.tscn" id="1_2r76m"]
 [ext_resource type="PackedScene" uid="uid://bn4xai6lpce82" path="res://scenes/squad.tscn" id="1_pxj0b"]
 [ext_resource type="Script" path="res://scenes/main.gd" id="1_vrdrw"]
 [ext_resource type="PackedScene" uid="uid://bg707hp3xs8uw" path="res://scenes/syncbutton.tscn" id="4_xmsss"]
+[ext_resource type="FontFile" uid="uid://c43hoyloe2qrv" path="res://misc/GWTwoFont.ttf" id="5_olfjt"]
 
 [sub_resource type="Gradient" id="Gradient_3b1ix"]
 offsets = PackedFloat32Array(1)
@@ -130,35 +131,60 @@ anchor_top = 0.5
 anchor_right = 0.5
 anchor_bottom = 0.5
 offset_left = -409.0
-offset_top = -616.0
-offset_right = 399.0
-offset_bottom = -553.0
+offset_top = -622.0
+offset_right = 401.0
+offset_bottom = -547.0
 grow_horizontal = 2
 grow_vertical = 2
-theme_override_constants/h_separation = 79
+theme_override_constants/h_separation = 15
 columns = 5
 
-[node name="Label" type="Label" parent="CanvasLayer/Control/labelcontainer"]
+[node name="LineEdit" type="LineEdit" parent="CanvasLayer/Control/labelcontainer"]
+custom_minimum_size = Vector2(150, 75)
 layout_mode = 2
+theme_override_colors/font_placeholder_color = Color(1, 1, 1, 1)
+theme_override_colors/font_color = Color(1, 1, 1, 1)
+theme_override_fonts/font = ExtResource("5_olfjt")
 theme_override_font_sizes/font_size = 45
-text = "Stab"
+placeholder_text = "Stab"
+alignment = 1
 
-[node name="Label2" type="Label" parent="CanvasLayer/Control/labelcontainer"]
+[node name="LineEdit2" type="LineEdit" parent="CanvasLayer/Control/labelcontainer"]
+custom_minimum_size = Vector2(150, 75)
 layout_mode = 2
+theme_override_colors/font_placeholder_color = Color(1, 1, 1, 1)
+theme_override_colors/font_color = Color(1, 1, 1, 1)
+theme_override_fonts/font = ExtResource("5_olfjt")
 theme_override_font_sizes/font_size = 45
-text = "Heal"
+placeholder_text = "Heal"
+alignment = 1
 
-[node name="Label3" type="Label" parent="CanvasLayer/Control/labelcontainer"]
+[node name="LineEdit3" type="LineEdit" parent="CanvasLayer/Control/labelcontainer"]
+custom_minimum_size = Vector2(150, 75)
 layout_mode = 2
+theme_override_colors/font_placeholder_color = Color(1, 1, 1, 1)
+theme_override_colors/font_color = Color(1, 1, 1, 1)
+theme_override_fonts/font = ExtResource("5_olfjt")
 theme_override_font_sizes/font_size = 45
-text = "Util"
+placeholder_text = "Util"
+alignment = 1
 
-[node name="Label4" type="Label" parent="CanvasLayer/Control/labelcontainer"]
+[node name="LineEdit4" type="LineEdit" parent="CanvasLayer/Control/labelcontainer"]
+custom_minimum_size = Vector2(150, 75)
 layout_mode = 2
+theme_override_colors/font_placeholder_color = Color(1, 1, 1, 1)
+theme_override_colors/font_color = Color(1, 1, 1, 1)
+theme_override_fonts/font = ExtResource("5_olfjt")
 theme_override_font_sizes/font_size = 45
-text = "DPS"
+placeholder_text = "DPS"
+alignment = 1
 
-[node name="Label5" type="Label" parent="CanvasLayer/Control/labelcontainer"]
+[node name="LineEdit5" type="LineEdit" parent="CanvasLayer/Control/labelcontainer"]
+custom_minimum_size = Vector2(150, 75)
 layout_mode = 2
+theme_override_colors/font_placeholder_color = Color(1, 1, 1, 1)
+theme_override_colors/font_color = Color(1, 1, 1, 1)
+theme_override_fonts/font = ExtResource("5_olfjt")
 theme_override_font_sizes/font_size = 45
-text = "DPS"
+placeholder_text = "DPS"
+alignment = 1

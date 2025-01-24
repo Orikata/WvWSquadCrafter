@@ -10,6 +10,7 @@ func _ready():
 
 func update():
 	pass
-	'for i in range(0, palette_slots.size()):
+	# debug print
+	for i in range(0, palette_slots.size()):
 		#palette_slots[i].update(palette.units[i])
-		print(i, " ",palette.units[i].name)'
+		print(i, " ",palette.units[i].name)
