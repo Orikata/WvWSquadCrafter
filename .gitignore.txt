@@ -1,5 +1,0 @@
-.import/
-export/
-.godot/
-.DS_Store
-Thumbs.db
