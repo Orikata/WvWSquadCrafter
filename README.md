@@ -14,4 +14,4 @@ I might add color for DPS/Healer/Cele roles in the future, and maybe a hotkey fo
 
 
 ----------------------------------------------------
-Assets, artwork, and font are created and owned by Arenanet as detailed in their Content Terms of use ([https://www.arena.net/en/legal/content-terms-of-use](https://www.arena.net/en/legal/content-terms-of-use)) I do not own or profit from this work in any way.
+Assets, artwork, and font are created and owned by Arenanet as detailed in their Content Terms of use ([https://www.arena.net/en/legal/content-terms-of-use](https://www.arena.net/en/legal/content-terms-of-use)) I do not own or profit from this work in any way. Assets were obtained from asset packs distributed by Arenanet.
