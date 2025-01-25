@@ -9,3 +9,9 @@
 I might add color for DPS/Healer/Cele roles in the future, and maybe a hotkey for taking a picture. If you want to share pictures, you can use WindowsKey+Alt+S to snip the screen. If you have suggestions I'd love to hear about them.
 
 ![https://github.com/Orikata/WvWSquadCrafter/blob/main/sample_images/squadbuilder_splash.png](https://github.com/Orikata/WvWSquadCrafter/blob/main/sample_images/squadbuilder_splash.png)
+
+
+
+
+----------------------------------------------------
+Assets, artwork, and font are created and owned by Arenanet as detailed in their Content Terms of use ([https://www.arena.net/en/legal/content-terms-of-use](https://www.arena.net/en/legal/content-terms-of-use)) I do not own or profit from this work in any way.
