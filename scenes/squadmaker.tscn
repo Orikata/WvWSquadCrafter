@@ -123,6 +123,41 @@ layout_mode = 2
 [node name="Button5" parent="CanvasLayer/Control/NinePatchRect/rowsync" instance=ExtResource("4_xmsss")]
 layout_mode = 2
 
+[node name="delbutton" type="Button" parent="CanvasLayer/Control/NinePatchRect"]
+custom_minimum_size = Vector2(100, 100)
+layout_mode = 1
+anchors_preset = 3
+anchor_left = 1.0
+anchor_top = 1.0
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = -200.0
+offset_top = -198.0
+offset_right = -100.0
+offset_bottom = -98.0
+grow_horizontal = 0
+grow_vertical = 0
+theme_override_fonts/font = ExtResource("5_olfjt")
+theme_override_font_sizes/font_size = 50
+text = "🗑"
+
+[node name="camerabutton" type="Button" parent="CanvasLayer/Control/NinePatchRect"]
+custom_minimum_size = Vector2(100, 100)
+layout_mode = 1
+anchors_preset = 3
+anchor_left = 1.0
+anchor_top = 1.0
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = -336.0
+offset_top = -198.0
+offset_right = -236.0
+offset_bottom = -98.0
+grow_horizontal = 0
+grow_vertical = 0
+theme_override_font_sizes/font_size = 50
+text = "📷"
+
 [node name="labelcontainer" type="GridContainer" parent="CanvasLayer/Control"]
 layout_mode = 1
 anchors_preset = 8
@@ -188,3 +223,6 @@ theme_override_fonts/font = ExtResource("5_olfjt")
 theme_override_font_sizes/font_size = 45
 placeholder_text = "DPS"
 alignment = 1
+
+[connection signal="pressed" from="CanvasLayer/Control/NinePatchRect/delbutton" to="." method="_on_delbutton_pressed"]
+[connection signal="pressed" from="CanvasLayer/Control/NinePatchRect/camerabutton" to="." method="_on_camerabutton_pressed"]

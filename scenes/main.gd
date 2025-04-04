@@ -9,8 +9,12 @@ extends Node2D
 @onready var squad_slots: Array = $CanvasLayer/Control/NinePatchRect/squadgui.get_children()
 @onready var palette_slots: Array = $CanvasLayer/Control/NinePatchRect/palette.get_children()
 @onready var syncbuttons = $CanvasLayer/Control/NinePatchRect/rowsync.get_children()
-
+@onready var delbutton = $CanvasLayer/Control/NinePatchRect/delbutton
 @onready var nine_patch_rect = $CanvasLayer/Control/NinePatchRect
+
+#gui references
+@onready var squadgui = $CanvasLayer/Control/NinePatchRect/squadgui
+@onready var labelgui = $CanvasLayer/Control/labelcontainer
 
 var unitInHand: PaletteStackGui
 
@@ -46,6 +50,14 @@ func update():
 		palettestackgui.unit = squad.units[i]
 		palettestackgui.update()
 
+func _on_delbutton_pressed():
+	clearSquad()
+
+func clearSquad():
+	for slot in squad_slots:
+		slot.takeItem() # returns the unit but we're clearing it so we dont care about the return.
+	
+	
 func connectSquadSlots():
 	for i in range(squad_slots.size()):
 		var slot = squad_slots[i]
@@ -53,7 +65,7 @@ func connectSquadSlots():
 		var callable = Callable(onSquadSlotClicked)
 		callable = callable.bind(slot)
 		slot.pressed.connect(callable)
-	
+
 func connectSyncButtons():
 	for i in range(syncbuttons.size()):
 		var but = syncbuttons[i]
@@ -61,6 +73,7 @@ func connectSyncButtons():
 		var callable = Callable(onSyncButClicked)
 		callable = callable.bind(but)
 		but.pressed.connect(callable)
+
 
 func onSyncButClicked(button):
 	if !unitInHand: return
@@ -130,6 +143,38 @@ func updateUnitInHand():
 func _input(_event):
 	if unitInHand && Input.is_action_just_pressed("rightClick"):
 		removeFromHand()
-	
 	updateUnitInHand()
 	
+
+func _on_camerabutton_pressed():
+	await get_tree().process_frame  # UI should finish rendering first
+
+	var top_rect:Rect2 = labelgui.get_global_rect()
+	var bottom_rect:Rect2 = squadgui.get_global_rect()
+	
+	# calc rect bounds
+	var top_left: Vector2 = top_rect.position
+	var bottom_right_y: float = bottom_rect.position.y + bottom_rect.size.y
+	var max_width: float = max(top_rect.size.x, bottom_rect.size.x)
+	
+	var capture_rect: Rect2 = Rect2(top_left, Vector2(max_width, bottom_right_y - top_left.y))
+	var padding: float = 5.0
+	capture_rect.position -= Vector2(padding, padding)
+	capture_rect.size += Vector2(padding * 2, padding * 2)
+	print("cappin area ong frfr: ", capture_rect)
+	
+	var screen_image: Image = get_viewport().get_texture().get_image()
+	screen_image = screen_image.get_region(capture_rect)
+	
+	var current_time = Time.get_datetime_dict_from_system()
+	print(current_time)
+	var date_str = "%04d-%02d-%02d_%02d-%02d-%02d" % [
+		current_time["year"], current_time["month"], current_time["day"],
+		current_time["hour"], current_time["minute"], current_time["second"]
+	]
+	var file_path = "user://squad_" + date_str + ".png"
+	print(file_path)
+	screen_image.save_png(file_path)
+	
+	# open the folder where it's saved
+	OS.shell_open(ProjectSettings.globalize_path("user://"))
