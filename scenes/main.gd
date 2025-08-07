@@ -18,7 +18,7 @@ extends Node2D
 @onready var reference_rect = %ReferenceRect
 
 var unitInHand: PaletteStackGui
-
+#test
 func _ready():
 	squad.updated.connect(update)
 	connectSquadSlots()

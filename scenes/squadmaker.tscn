@@ -4,7 +4,7 @@
 [ext_resource type="PackedScene" uid="uid://bn4xai6lpce82" path="res://scenes/squad.tscn" id="1_pxj0b"]
 [ext_resource type="Script" uid="uid://cb7dx0vx2famy" path="res://scenes/main.gd" id="1_vrdrw"]
 [ext_resource type="PackedScene" uid="uid://bg707hp3xs8uw" path="res://scenes/syncbutton.tscn" id="4_xmsss"]
-[ext_resource type="FontFile" uid="uid://c43hoyloe2qrv" path="res://misc/GWTwoFont.ttf" id="5_olfjt"]
+[ext_resource type="FontFile" uid="uid://bmb35vl8nq476" path="res://misc/GWTwoFont.ttf" id="5_olfjt"]
 
 [sub_resource type="Gradient" id="Gradient_3b1ix"]
 offsets = PackedFloat32Array(1)
