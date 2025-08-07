@@ -8,7 +8,7 @@
 
 I might add color for DPS/Healer/Cele roles in the future. If you want to share pictures, you can use WindowsKey+Alt+S to snip the screen or use the built in camera button. If you have suggestions I'd love to hear about them.
 
-![https://github.com/Orikata/WvWSquadCrafter/blob/main/sample_images/squadbuilder_splash.png](https://github.com/Orikata/WvWSquadCrafter/blob/main/sample_images/squadbuilder_splash2.png)
+![https://github.com/Orikata/WvWSquadCrafter/blob/main/sample_images/squadbuilder_splash2.png](https://github.com/Orikata/WvWSquadCrafter/blob/main/sample_images/squadbuilder_splash2.png)
 
 
 
