@@ -27,7 +27,6 @@ config/icon="res://assets/icon.png"
 
 window/size/viewport_width=1600
 window/size/viewport_height=900
-window/size/resizable=false
 
 [file_customization]
 

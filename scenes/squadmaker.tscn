@@ -226,7 +226,6 @@ alignment = 1
 
 <<<<<<< HEAD
 [node name="ReferenceRect" type="ReferenceRect" parent="CanvasLayer"]
-unique_name_in_owner = true
 visible = false
 offset_left = 582.0
 offset_top = 115.0

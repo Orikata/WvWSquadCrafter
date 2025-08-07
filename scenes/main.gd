@@ -16,9 +16,13 @@ extends Node2D
 @onready var squadgui = $CanvasLayer/Control/NinePatchRect/squadgui
 @onready var labelgui = $CanvasLayer/Control/labelcontainer
 <<<<<<< HEAD
+<<<<<<< HEAD
 @onready var reference_rect = %ReferenceRect
 =======
 >>>>>>> parent of def056e (Updated for VOE)
+=======
+@onready var reference_rect = $CanvasLayer/ReferenceRect
+>>>>>>> parent of 5e1d934 (fixed resizable and screen cap)
 
 var unitInHand: PaletteStackGui
 
