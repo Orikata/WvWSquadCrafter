@@ -15,12 +15,16 @@ run/main_scene="res://scenes/squadmaker.tscn"
 <<<<<<< HEAD
 config/features=PackedStringArray("4.4", "Mobile")
 boot_splash/image="uid://dphvdv1bpodtd"
+<<<<<<< HEAD
 config/icon="uid://dphvdv1bpodtd"
 =======
 config/features=PackedStringArray("4.3", "Mobile")
 boot_splash/image="res://assets/logo.png"
 config/icon="res://assets/icon.png"
 >>>>>>> parent of def056e (Updated for VOE)
+=======
+config/icon="res://assets/icon.png"
+>>>>>>> parent of 4febaca (fixed icon resolutions)
 
 [display]
 
