@@ -2,7 +2,7 @@
 
 [ext_resource type="PackedScene" uid="uid://dqsb7x30xqsoh" path="res://scenes/palette.tscn" id="1_2r76m"]
 [ext_resource type="PackedScene" uid="uid://bn4xai6lpce82" path="res://scenes/squad.tscn" id="1_pxj0b"]
-[ext_resource type="Script" uid="uid://cb7dx0vx2famy" path="res://scenes/main.gd" id="1_vrdrw"]
+[ext_resource type="Script" path="res://scenes/main.gd" id="1_vrdrw"]
 [ext_resource type="PackedScene" uid="uid://bg707hp3xs8uw" path="res://scenes/syncbutton.tscn" id="4_xmsss"]
 [ext_resource type="FontFile" uid="uid://c43hoyloe2qrv" path="res://misc/GWTwoFont.ttf" id="5_olfjt"]
 
@@ -80,10 +80,10 @@ layout_mode = 1
 anchors_preset = -1
 anchor_left = 0.134
 anchor_right = 0.134
-offset_left = -332.264
-offset_top = -802.5
-offset_right = 457.736
-offset_bottom = 787.5
+offset_left = -306.568
+offset_top = -691.0
+offset_right = 305.432
+offset_bottom = 691.0
 
 [node name="squadgui" parent="CanvasLayer/Control/NinePatchRect" instance=ExtResource("1_pxj0b")]
 layout_mode = 1
@@ -158,20 +158,6 @@ grow_vertical = 0
 theme_override_font_sizes/font_size = 50
 text = "📷"
 
-[node name="LineEdit6" type="LineEdit" parent="CanvasLayer/Control"]
-custom_minimum_size = Vector2(150, 75)
-layout_mode = 2
-offset_left = 1196.0
-offset_top = 258.0
-offset_right = 2016.0
-offset_bottom = 333.0
-theme_override_colors/font_placeholder_color = Color(1, 1, 1, 1)
-theme_override_colors/font_color = Color(1, 1, 1, 1)
-theme_override_fonts/font = ExtResource("5_olfjt")
-theme_override_font_sizes/font_size = 45
-placeholder_text = "Squad"
-alignment = 1
-
 [node name="labelcontainer" type="GridContainer" parent="CanvasLayer/Control"]
 layout_mode = 1
 anchors_preset = 8
@@ -238,6 +224,7 @@ theme_override_font_sizes/font_size = 45
 placeholder_text = "DPS"
 alignment = 1
 
+<<<<<<< HEAD
 [node name="ReferenceRect" type="ReferenceRect" parent="CanvasLayer"]
 unique_name_in_owner = true
 visible = false
@@ -247,5 +234,7 @@ offset_right = 1021.0
 offset_bottom = 678.0
 border_color = Color(1.54018e-06, 0.565063, 0.862565, 1)
 
+=======
+>>>>>>> parent of def056e (Updated for VOE)
 [connection signal="pressed" from="CanvasLayer/Control/NinePatchRect/delbutton" to="." method="_on_delbutton_pressed"]
 [connection signal="pressed" from="CanvasLayer/Control/NinePatchRect/camerabutton" to="." method="_on_camerabutton_pressed"]

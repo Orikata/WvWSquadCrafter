@@ -1,6 +1,6 @@
 [gd_scene load_steps=3 format=3 uid="uid://dqsb7x30xqsoh"]
 
-[ext_resource type="Script" uid="uid://cfhi64w0fg81i" path="res://scenes/palette_gui.gd" id="1_qsj6f"]
+[ext_resource type="Script" path="res://scenes/palette_gui.gd" id="1_qsj6f"]
 [ext_resource type="PackedScene" uid="uid://b6ji8k33y3ruk" path="res://scenes/palettebutton.tscn" id="2_5nmep"]
 
 [node name="palette" type="GridContainer"]
@@ -17,7 +17,7 @@ grow_horizontal = 2
 grow_vertical = 2
 theme_override_constants/h_separation = 10
 theme_override_constants/v_separation = 10
-columns = 5
+columns = 4
 script = ExtResource("1_qsj6f")
 
 [node name="Button" parent="." instance=ExtResource("2_5nmep")]
@@ -138,34 +138,4 @@ layout_mode = 2
 layout_mode = 2
 
 [node name="Button40" parent="." instance=ExtResource("2_5nmep")]
-layout_mode = 2
-
-[node name="Button41" parent="." instance=ExtResource("2_5nmep")]
-layout_mode = 2
-
-[node name="Button42" parent="." instance=ExtResource("2_5nmep")]
-layout_mode = 2
-
-[node name="Button43" parent="." instance=ExtResource("2_5nmep")]
-layout_mode = 2
-
-[node name="Button44" parent="." instance=ExtResource("2_5nmep")]
-layout_mode = 2
-
-[node name="Button45" parent="." instance=ExtResource("2_5nmep")]
-layout_mode = 2
-
-[node name="Button46" parent="." instance=ExtResource("2_5nmep")]
-layout_mode = 2
-
-[node name="Button47" parent="." instance=ExtResource("2_5nmep")]
-layout_mode = 2
-
-[node name="Button48" parent="." instance=ExtResource("2_5nmep")]
-layout_mode = 2
-
-[node name="Button49" parent="." instance=ExtResource("2_5nmep")]
-layout_mode = 2
-
-[node name="Button50" parent="." instance=ExtResource("2_5nmep")]
 layout_mode = 2

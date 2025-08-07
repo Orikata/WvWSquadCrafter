@@ -1,9 +1,0 @@
-[gd_resource type="Resource" script_class="Unit" load_steps=3 format=3 uid="uid://cllg11b2anbwi"]
-
-[ext_resource type="Script" uid="uid://q2wmcpof7maq" path="res://scripts/unit.gd" id="1_t2ejk"]
-[ext_resource type="Texture2D" uid="uid://c1c0hlkgrlds5" path="res://assets/troubadour.png" id="2_t2ejk"]
-
-[resource]
-script = ExtResource("1_t2ejk")
-name = "troubadour"
-texture = ExtResource("2_t2ejk")

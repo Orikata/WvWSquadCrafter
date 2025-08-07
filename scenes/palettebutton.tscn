@@ -1,6 +1,6 @@
 [gd_scene load_steps=2 format=3 uid="uid://b6ji8k33y3ruk"]
 
-[ext_resource type="Script" uid="uid://b6q7vqhdmreei" path="res://scenes/palettebutton.gd" id="1_7rcs8"]
+[ext_resource type="Script" path="res://scenes/palettebutton.gd" id="1_7rcs8"]
 
 [node name="Button" type="Button"]
 custom_minimum_size = Vector2(150, 150)

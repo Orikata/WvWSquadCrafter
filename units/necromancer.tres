@@ -1,6 +1,6 @@
 [gd_resource type="Resource" script_class="Unit" load_steps=3 format=3 uid="uid://cm3bi3647k0r3"]
 
-[ext_resource type="Script" uid="uid://q2wmcpof7maq" path="res://scripts/unit.gd" id="1_yv5rh"]
+[ext_resource type="Script" path="res://scripts/unit.gd" id="1_yv5rh"]
 [ext_resource type="Texture2D" uid="uid://d3ium43ogq3or" path="res://assets/necro.png" id="2_q57w3"]
 
 [resource]

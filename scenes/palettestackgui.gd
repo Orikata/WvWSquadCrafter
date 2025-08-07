@@ -12,4 +12,3 @@ func update():
 	iconSprite.visible = true
 	iconSprite.texture = unit.texture
 	
-	

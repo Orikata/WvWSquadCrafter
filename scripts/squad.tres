@@ -1,7 +1,7 @@
 [gd_resource type="Resource" script_class="Squad" load_steps=3 format=3 uid="uid://302n0q46xfqt"]
 
-[ext_resource type="Script" uid="uid://bj8rbfxfug21v" path="res://scripts/squad.gd" id="1_1lswy"]
-[ext_resource type="Script" uid="uid://q2wmcpof7maq" path="res://scripts/unit.gd" id="2_e27hq"]
+[ext_resource type="Script" path="res://scripts/squad.gd" id="1_1lswy"]
+[ext_resource type="Script" path="res://scripts/unit.gd" id="2_e27hq"]
 
 [resource]
 script = ExtResource("1_1lswy")

@@ -1,9 +1,0 @@
-[gd_resource type="Resource" script_class="Unit" load_steps=3 format=3 uid="uid://gcc57qm5x17a"]
-
-[ext_resource type="Script" uid="uid://q2wmcpof7maq" path="res://scripts/unit.gd" id="1_7xv8w"]
-[ext_resource type="Texture2D" uid="uid://dtlbpd7maxlhv" path="res://assets/paragon.png" id="2_7xv8w"]
-
-[resource]
-script = ExtResource("1_7xv8w")
-name = "paragon"
-texture = ExtResource("2_7xv8w")

@@ -1,6 +1,6 @@
 [gd_scene load_steps=2 format=3 uid="uid://miy7fmmp7vrj"]
 
-[ext_resource type="Script" uid="uid://e0ncq8u4lquq" path="res://scenes/squadbutton.gd" id="1_sb3fh"]
+[ext_resource type="Script" path="res://scenes/squadbutton.gd" id="1_sb3fh"]
 
 [node name="Button" type="Button"]
 custom_minimum_size = Vector2(150, 150)
