@@ -29,7 +29,7 @@ extends Node2D
 >>>>>>> parent of 5e1d934 (fixed resizable and screen cap)
 
 var unitInHand: PaletteStackGui
-
+#test
 func _ready():
 	squad.updated.connect(update)
 	connectSquadSlots()
