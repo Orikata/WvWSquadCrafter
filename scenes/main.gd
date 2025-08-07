@@ -15,7 +15,7 @@ extends Node2D
 #gui references
 @onready var squadgui = $CanvasLayer/Control/NinePatchRect/squadgui
 @onready var labelgui = $CanvasLayer/Control/labelcontainer
-@onready var reference_rect = $CanvasLayer/ReferenceRect
+@onready var reference_rect = %ReferenceRect
 
 var unitInHand: PaletteStackGui
 
