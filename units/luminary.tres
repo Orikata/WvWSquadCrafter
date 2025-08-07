@@ -1,0 +1,9 @@
+[gd_resource type="Resource" script_class="Unit" load_steps=3 format=3 uid="uid://f3w8db2qb5xt"]
+
+[ext_resource type="Script" uid="uid://q2wmcpof7maq" path="res://scripts/unit.gd" id="1_app7u"]
+[ext_resource type="Texture2D" uid="uid://bq2c7x11oqic5" path="res://assets/luminary.png" id="2_app7u"]
+
+[resource]
+script = ExtResource("1_app7u")
+name = "luminary"
+texture = ExtResource("2_app7u")

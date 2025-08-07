@@ -1,6 +1,6 @@
 [gd_resource type="Resource" script_class="Unit" load_steps=3 format=3 uid="uid://6ntt1o7vyl2l"]
 
-[ext_resource type="Script" path="res://scripts/unit.gd" id="1_st3vh"]
+[ext_resource type="Script" uid="uid://q2wmcpof7maq" path="res://scripts/unit.gd" id="1_st3vh"]
 [ext_resource type="Texture2D" uid="uid://ddnp6uc53i6gh" path="res://assets/thief4.png" id="2_jky5v"]
 
 [resource]

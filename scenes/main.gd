@@ -15,6 +15,7 @@ extends Node2D
 #gui references
 @onready var squadgui = $CanvasLayer/Control/NinePatchRect/squadgui
 @onready var labelgui = $CanvasLayer/Control/labelcontainer
+@onready var reference_rect = $CanvasLayer/ReferenceRect
 
 var unitInHand: PaletteStackGui
 
@@ -60,19 +61,21 @@ func clearSquad():
 	
 func connectSquadSlots():
 	for i in range(squad_slots.size()):
-		var slot = squad_slots[i]
-		slot.index = i
-		var callable = Callable(onSquadSlotClicked)
-		callable = callable.bind(slot)
-		slot.pressed.connect(callable)
+		if squad_slots[i]:
+			var slot = squad_slots[i]
+			slot.index = i
+			var callable = Callable(onSquadSlotClicked)
+			callable = callable.bind(slot)
+			slot.pressed.connect(callable)
 
 func connectSyncButtons():
 	for i in range(syncbuttons.size()):
-		var but = syncbuttons[i]
-		but.index = i
-		var callable = Callable(onSyncButClicked)
-		callable = callable.bind(but)
-		but.pressed.connect(callable)
+		if syncbuttons[i]:
+			var but = syncbuttons[i]
+			but.index = i
+			var callable = Callable(onSyncButClicked)
+			callable = callable.bind(but)
+			but.pressed.connect(callable)
 
 
 func onSyncButClicked(button):
@@ -148,15 +151,11 @@ func _input(_event):
 
 func _on_camerabutton_pressed():
 	await get_tree().process_frame  # UI should finish rendering first
+	var reference_rect_global: Rect2 = reference_rect.get_global_rect()
+	var top_left: Vector2 = reference_rect_global.position
+	var bottom_right_y: float = reference_rect_global.position.y + reference_rect_global.size.y
+	var max_width: float = reference_rect_global.size.x  # width of the reference_rect
 
-	var top_rect:Rect2 = labelgui.get_global_rect()
-	var bottom_rect:Rect2 = squadgui.get_global_rect()
-	
-	# calc rect bounds
-	var top_left: Vector2 = top_rect.position
-	var bottom_right_y: float = bottom_rect.position.y + bottom_rect.size.y
-	var max_width: float = max(top_rect.size.x, bottom_rect.size.x)
-	
 	var capture_rect: Rect2 = Rect2(top_left, Vector2(max_width, bottom_right_y - top_left.y))
 	var padding: float = 5.0
 	capture_rect.position -= Vector2(padding, padding)

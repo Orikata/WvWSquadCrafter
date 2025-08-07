@@ -1,0 +1,9 @@
+[gd_resource type="Resource" script_class="Unit" load_steps=3 format=3 uid="uid://beyt1ijenv1pn"]
+
+[ext_resource type="Script" uid="uid://q2wmcpof7maq" path="res://scripts/unit.gd" id="1_1s3dc"]
+[ext_resource type="Texture2D" uid="uid://duyq3cl624f47" path="res://assets/galeshot.png" id="2_1s3dc"]
+
+[resource]
+script = ExtResource("1_1s3dc")
+name = "galeshot"
+texture = ExtResource("2_1s3dc")

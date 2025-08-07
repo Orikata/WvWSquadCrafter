@@ -1,0 +1,9 @@
+[gd_resource type="Resource" script_class="Unit" load_steps=3 format=3 uid="uid://lacmd1ijayhl"]
+
+[ext_resource type="Script" uid="uid://q2wmcpof7maq" path="res://scripts/unit.gd" id="1_j86bo"]
+[ext_resource type="Texture2D" uid="uid://d1rfcdbbe2jcv" path="res://assets/amalgam.png" id="2_j86bo"]
+
+[resource]
+script = ExtResource("1_j86bo")
+name = "amalgam"
+texture = ExtResource("2_j86bo")
