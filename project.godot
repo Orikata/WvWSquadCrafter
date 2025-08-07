@@ -13,6 +13,7 @@ config_version=5
 config/name="WvWSquadMaker"
 run/main_scene="res://scenes/squadmaker.tscn"
 config/features=PackedStringArray("4.4", "Mobile")
+boot_splash/fullsize=false
 boot_splash/image="uid://dphvdv1bpodtd"
 config/icon="res://assets/icon.png"
 
