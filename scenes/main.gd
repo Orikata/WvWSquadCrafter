@@ -25,6 +25,7 @@ func _ready():
 	connectPaletteSlots()
 	connectSyncButtons()
 	update()
+	get_window().title = "WvW Squad Crafter v1.2.1" 
 
 func update():
 	
