@@ -1,4 +1,7 @@
 # WVWSquadCrafter
+How to Install:
+Just download the latest release for your system on the right. The .exe is lightweight and ready out of the box!
+
 How To Use:
 - **Left click once** to copy.
 - **Left click on a party slot** to add a class.
