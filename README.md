@@ -1,5 +1,5 @@
 # WVWSquadCrafter
-
+How To Use:
 - **Left click once** to copy.
 - **Left click on a party slot** to add a class.
 - **Left click on the Sync button** to copy the class onto that entire row.
