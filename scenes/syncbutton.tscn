@@ -1,7 +1,7 @@
 [gd_scene load_steps=3 format=3 uid="uid://bg707hp3xs8uw"]
 
 [ext_resource type="FontFile" uid="uid://bmb35vl8nq476" path="res://misc/GWTwoFont.ttf" id="1_hajwg"]
-[ext_resource type="Script" uid="uid://h21j0txhjb62" path="res://scenes/syncbutton.gd" id="2_s8d35"]
+[ext_resource type="Script" uid="uid://cssscq3kebs6i" path="res://scenes/syncbutton.gd" id="2_s8d35"]
 
 [node name="Button" type="Button"]
 custom_minimum_size = Vector2(150, 15)

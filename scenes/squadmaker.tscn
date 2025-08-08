@@ -2,7 +2,7 @@
 
 [ext_resource type="PackedScene" uid="uid://dqsb7x30xqsoh" path="res://scenes/palette.tscn" id="1_2r76m"]
 [ext_resource type="PackedScene" uid="uid://bn4xai6lpce82" path="res://scenes/squad.tscn" id="1_pxj0b"]
-[ext_resource type="Script" path="res://scenes/main.gd" id="1_vrdrw"]
+[ext_resource type="Script" uid="uid://hr1wh3vicr3e" path="res://scenes/main.gd" id="1_vrdrw"]
 [ext_resource type="PackedScene" uid="uid://bg707hp3xs8uw" path="res://scenes/syncbutton.tscn" id="4_xmsss"]
 [ext_resource type="FontFile" uid="uid://bmb35vl8nq476" path="res://misc/GWTwoFont.ttf" id="5_olfjt"]
 
@@ -224,19 +224,14 @@ theme_override_font_sizes/font_size = 45
 placeholder_text = "DPS"
 alignment = 1
 
-<<<<<<< HEAD
 [node name="ReferenceRect" type="ReferenceRect" parent="CanvasLayer"]
-<<<<<<< HEAD
-=======
+unique_name_in_owner = true
 visible = false
->>>>>>> parent of 5e1d934 (fixed resizable and screen cap)
 offset_left = 582.0
 offset_top = 115.0
 offset_right = 1021.0
 offset_bottom = 678.0
 border_color = Color(1.54018e-06, 0.565063, 0.862565, 1)
 
-=======
->>>>>>> parent of def056e (Updated for VOE)
 [connection signal="pressed" from="CanvasLayer/Control/NinePatchRect/delbutton" to="." method="_on_delbutton_pressed"]
 [connection signal="pressed" from="CanvasLayer/Control/NinePatchRect/camerabutton" to="." method="_on_camerabutton_pressed"]

@@ -1,6 +1,6 @@
 [gd_scene load_steps=3 format=3 uid="uid://dqsb7x30xqsoh"]
 
-[ext_resource type="Script" path="res://scenes/palette_gui.gd" id="1_qsj6f"]
+[ext_resource type="Script" uid="uid://gk81eqkik8af" path="res://scenes/palette_gui.gd" id="1_qsj6f"]
 [ext_resource type="PackedScene" uid="uid://b6ji8k33y3ruk" path="res://scenes/palettebutton.tscn" id="2_5nmep"]
 
 [node name="palette" type="GridContainer"]

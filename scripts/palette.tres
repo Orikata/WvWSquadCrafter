@@ -1,8 +1,8 @@
 [gd_resource type="Resource" script_class="Palette" load_steps=42 format=3 uid="uid://bnkv0o6pv6qr5"]
 
-[ext_resource type="Script" path="res://scripts/palette.gd" id="1_5u2w7"]
+[ext_resource type="Script" uid="uid://qtfioyfk3nmd" path="res://scripts/palette.gd" id="1_5u2w7"]
 [ext_resource type="Resource" uid="uid://qftbhidoxjfn" path="res://units/guardian.tres" id="2_yb34o"]
-[ext_resource type="Script" path="res://scripts/unit.gd" id="2_yv1t0"]
+[ext_resource type="Script" uid="uid://q2wmcpof7maq" path="res://scripts/unit.gd" id="2_yv1t0"]
 [ext_resource type="Resource" uid="uid://bl7owjf08lq7a" path="res://units/dragonhunter.tres" id="3_65a3l"]
 [ext_resource type="Resource" uid="uid://dwq1yjeyi254d" path="res://units/firebrand.tres" id="4_3n482"]
 [ext_resource type="Resource" uid="uid://c0yl6w7vrd34o" path="res://units/willbender.tres" id="5_cyqbg"]
